@@ -1,17 +1,68 @@
 body {
-  background-color: rgb(222, 182, 130);
+  background-color: #deb682;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-sizing: border-box;
   text-align: center;
+
+  main {
+    flex-wrap: wrap;
+  }
 
   h1 {
     color: #7f0000;
   }
 
   #palindrome-checker-card {
-    margin: auto;
+    margin: 50px auto;
     width: 400px;
-    border: 1px solid black;
-    box-shadow: 2px 1px;
+    padding: 50px 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px #000000;
+    background-color: #7f0000;
+    color: #ffffff;
+
+    #text-input {
+      min-width: 200px;
+      min-height: 50px;
+      font-size: 20px;
+      border: none;
+      margin-right: 15px;
+      background-color: transparent;
+      border-bottom: 3px solid #deb682;
+      color: #deb682;
+      &:focus {
+        outline: 1px solid #ffffff;
+      }
+    }
+
+    #check-btn {
+      background-color: #deb682;
+      border: none;
+      padding: 15px 25px;
+      border-radius: 5px;
+      color: #7f0000;
+      font-size: 20px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    #result {
+      color: #ffffff;
+      font-size: 20px;
+    }
+  }
+
+  #description-card {
+    background-color: lightblue;
+    color: #7f0000;
+    display: flex;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    align-items: flex-start;
+    box-shadow: 0 3px 6px #000;
+    word-spacing: 5px;
+    border-radius: 5px;
   }
 }

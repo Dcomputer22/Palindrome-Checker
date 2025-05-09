@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Palindrome Checker</title>
   </head>
   <body>
     <main>
       <h1>CHECK IF THE WORD IS A PALINDROME</h1>
 
       <div id="palindrome-checker-card">
-        <h3>Input a text to check if it's palindrome:</h3>
+        <h3>Input text to check if it's palindrome:</h3>
         <input id="text-input" type="text" />
-        <button id="check-btn">Check</button>
-        <p></p>
+        <button id="check-btn" onclick="checkForPalindrome()">Check</button>
+        <p id="result"></p>
       </div>
 
       <div id="description-card">
