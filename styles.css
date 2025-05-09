@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(222, 182, 130);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+
+  h1 {
+    color: #7f0000;
+  }
+
+  #palindrome-checker-card {
+    margin: auto;
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 2px 1px;
+  }
+}
